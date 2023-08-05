@@ -1,5 +1,4 @@
 'use strict';
-
 const quizApp = document.querySelector('.questions_box');
 const finalApp = document.querySelector('.final');
 const currentQuestionNumber = document.querySelector(
@@ -62,100 +61,34 @@ const questions = [
   {
     question: 'What is the computer system?',
     options: [
+      'A computer system devices that is used for chatting',
       'A computer system is a combination of memory, CPU, peripheral devices that are connected to it, and OS',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
+      'Not sure',
       'No of the above',
     ],
-    answer: 1,
+    answer: 2,
   },
 
   {
-    question: 'List out some popular operating system',
+    question: 'Some popular operating system are:',
     options: [
-      'Some popular operating systems are Microsoft Windows, OSX, and Linux.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
+      'Python, OSX, and Linux.',
+      'Microsoft Windows, OSX, and c++',
+      'Microsoft Windows, OSX, and Linux.',
+      'Microsoft Windows, javascript and Linux.',
     ],
-    answer: 1,
+    answer: 3,
   },
 
   {
     question: 'What Is A Super-class?',
     options: [
-      'The object of the rest of the class has all the characteristics related to the superclass.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
+      'Good class',
+      'Classes that contains constructor',
+      'Classes that can be inherit from',
+      'The object of the rest of the class has all the characteristics related to the superclass',
     ],
-    answer: 1,
-  },
-
-  {
-    question: 'Explain class variable',
-    options: [
-      'Variables represent a memory of class, which it shares with each and every instance.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
-  },
-
-  {
-    question: ' What is SDLC?',
-    options: [
-      'SDLC stands for Software Development Life Cycle',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
-  },
-
-  {
-    question: 'What is a programming language?',
-    options: [
-      'A programming language is a collection of grammar rules for giving instructions to computer or computing devices in order to perform achieve task.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
-  },
-
-  {
-    question: 'What is a class?',
-    options: [
-      'A class is a blueprint for creating objects. A class contains methods and variables which are a class instance.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
-  },
-
-  {
-    question: 'What is an Interface?',
-    options: [
-      'The interface is similar to a class in Java, but it is a collection of abstract methods. A class can have more than one interface.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
-  },
-
-  {
-    question: 'Explain the framework',
-    options: [
-      'he framework is a platform for making software applications. It provides the basis on which developers can build programs for a specific platform.',
-      '"-" sign or "parseInt" function',
-      '"+" sign or "parseInt" function',
-      'No of the above',
-    ],
-    answer: 1,
+    answer: 4,
   },
 ];
 
