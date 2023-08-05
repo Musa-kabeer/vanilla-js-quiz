@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="script.js"></script>
+
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <button class="start">Start Quiz</button>
+
+    <div class="questions_box">
+      <div class="question_top">
+        <div>
+          <span class="current_question_number">1</span> of
+          <span class="total_questions_number">2</span> Question
+        </div>
+        <div class="timeout">
+          <i class="fa-solid fa-clock"></i>
+          <span class="timer"></span>
+        </div>
+      </div>
+
+      <div class="question_middle">
+        <p class="question">
+          Which of the following did you like most?
+        </p>
+
+        <div class="question_options"></div>
+      </div>
+    </div>
+
+    <div class="final hidden">
+      <p>Your total score is: <span class="score"></span></p>
+      <button class="reset">Reset</button>
+    </div>
+  </body>
+</html>
